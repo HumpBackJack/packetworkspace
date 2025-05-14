@@ -1,3 +1,4 @@
+package Cube;
 public class Cube {
     private double side;
     public Cube(double s){
@@ -13,7 +14,8 @@ public class Cube {
     public double getside(){
         return side;
     }
-    public void setSideForVolume(double v){
+    public void setSideForVolume(){
+        double v = 125.0;
         double temp = Math.pow(v,1.0/3.0);
         temp = (int)(1000*temp+0.5);
         side = temp/1000.0;
