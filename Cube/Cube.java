@@ -19,5 +19,6 @@ public class Cube {
         double temp = Math.pow(v,1.0/3.0);
         temp = (int)(1000*temp+0.5);
         side = temp/1000.0;
+        System.out.println("your side is: "+ side);
     }
 }

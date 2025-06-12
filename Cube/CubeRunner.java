@@ -5,8 +5,7 @@ public class CubeRunner {
         double sArea = c1.surfaceArea();
         System.out.println(sArea);
         Cube c2 = new Cube(125.0);
-        double volume  = c2.setSideForVolume();
-        System.out.println(volume);
+        c2.setSideForVolume();
         double side = c2.getside();
         sArea = c2.surfaceArea();
         System.out.println(side);
